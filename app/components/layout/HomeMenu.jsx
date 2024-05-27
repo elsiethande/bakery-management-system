@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import MenuItems from "@/app/components/menu/MenuItems";
+import SectionHeaders from "@/app/components/layout/SectionHeaders";
 
 export default function HomeMenu(){
     return(
@@ -15,10 +16,11 @@ export default function HomeMenu(){
                     objectFit="container" alt={'chips'}/>
                 </div>
             </div>
-            <div className="text-center mb-4">
-                <h3 className="uppercase text-gray-500 font-semibold leading-4">Check out</h3>
-                <h1 className="text-red-500 font-bold text-4xl ">Menu</h1>
-            </div>
+            <SectionHeaders  
+                subHeader={'Check out'}
+                mainHeader={'Menu'}
+            />
+                
             <div className="grid grid-cols-4 gap-4">
                 <MenuItems/>
                 <MenuItems/>
