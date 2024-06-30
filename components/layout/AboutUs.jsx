@@ -15,7 +15,7 @@ export default function AboutUs(){
         </p>
         <p>Here are some designs we have been able to execute from inspos shared by clients</p>
         </div>
-        <div className="w-[40%] h-30 m-auto pt-11 ">
+        <div className=" w-[40%] h-[30%] m-auto pt-2 ">
             <Slider/>
         </div>
         </section>

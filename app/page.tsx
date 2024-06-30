@@ -1,17 +1,17 @@
-
 import React from "react";
-import Header from "@/app/components/layout/Header";
-import Hero from "@/app/components/layout/Hero";
-import HomeMenu from "@/app/components/layout/HomeMenu";
-import AboutUs from '@/app/components/layout/AboutUs'
+import Hero from "../components/layout/Hero";
+import HomeMenu from "../components/layout/HomeMenu";
+import AboutUs from "../components/layout/AboutUs";
+import ContactUs from "../components/layout/ContactUs";
 
 export default function Home(){
     return(
-        <>
-            <Header/>
-            <Hero/>
-            <HomeMenu/>
-            <AboutUs/>
-        </>
+            <div>
+               <Hero/> 
+               <HomeMenu/>
+               <AboutUs/>
+                <ContactUs/>
+            </div>
+           
     );
 }
